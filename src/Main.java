@@ -1,8 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("--- Car Dealership App Started ---");
-        
+        System.out.println(">>> CRITICAL STARTUP SUCCESSFUL <<<"); // <-- ИЗМЕНЕНИЕ
+
         CarService service = new CarService();
+        // ... остальной код
         
         // 1. Тестируем операцию поиска автомобилей по марке
         System.out.println("--- Testing Search Operation ---");

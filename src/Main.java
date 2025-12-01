@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("--- OFFICIAL APP LAUNCHED V1.0 ---"); // <-- КОНКУРИРУЮЩЕЕ ИЗМЕНЕНИЕ
+        System.out.println("--- FINAL APPLICATION LAUNCHED V1.0 ---"); // <-- Только эту строку!
 
         CarService service = new CarService();
-        // ... остальной код
+// ...
         
         // 1. Тестируем операцию поиска автомобилей по марке
         System.out.println("--- Testing Search Operation ---");
